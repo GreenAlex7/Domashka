@@ -14,7 +14,7 @@ int main()
 				A[i][j] = 1;
 			}
 			else {
-				A[i][j] = 0;
+				A[i][j] = rand()%2;
 			}
 			if (i % 4 == 0) {
 				A[i][j] = 1;
@@ -22,7 +22,7 @@ int main()
 			else if (j % 4 == 0) {
 				A[i][j] = 1;
 			}
-			
+
 		}
 	}
 
@@ -33,7 +33,7 @@ int main()
 		{
 			printf("%d", A[i][j]);
 			number++;
-			if (number == 5) 
+			if (number == 5)
 			{
 				printf("\n");
 				number = 0;
