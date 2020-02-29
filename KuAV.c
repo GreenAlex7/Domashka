@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define Q 5
 #define Z 5
 
+
 int main()
 {
+	srand(time(0));
 	int A[Q][Z];
 	int i, j;
 
