@@ -35,7 +35,7 @@ int main()
 		{
 			printf("%d", A[i][j]);
 			number++;
-			if (number == 15)
+			if (number == Z)
 			{
 				printf("\n");
 				number = 0;
